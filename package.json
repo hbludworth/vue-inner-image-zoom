@@ -16,8 +16,7 @@
     "prepublishOnly": "npm run build",
     "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "semantic-release": "semantic-release",
-    "postinstall": "yarn install && yarn build"
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "portal-vue": "^2.1.7"
